@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-family: Sofia;
+    font-size: 6rem;
+    color: mediumaquamarine;
+    
+}
+.msg{
+    width: 50rem;
+    height: 10rem;
+    font-family: Akaya Kanadaka;
+    color: cadetblue;
+    font-size: 7rem;
+    display: grid;
+    place-items: center;
+}
+.msghide{
+    display: none;
+}
+body{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 0;
+}
+.container{
+    height: 34rem;
+    width: 34rem;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+    
+    border-radius: 1rem;
+}
+.boxes{
+    background-color: aqua;
+    width: 10rem;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    font-size: 4rem;
+    color: rgb(25, 35, 53);
+    font-family: Kanit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5rem;
+    border:0.5rem solid rgb(214, 101, 127);
+    background-color: blueviolet;
+    color: azure;
+    margin: 5rem;
+    margin-top: 0rem;
+}
+.newbtn{
+    display: none;
+}
